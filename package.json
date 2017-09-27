@@ -1,0 +1,8 @@
+{
+  "name": "warrant-sample",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "serverless-python-requirements": "^3.0.1"
+  }
+}

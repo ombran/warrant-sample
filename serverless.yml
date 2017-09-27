@@ -1,0 +1,21 @@
+service: warrant-sample
+
+# aws用の設定
+provider:
+  name: aws
+  runtime: python3.6
+  stage: dev
+  region: ap-northeast-1
+
+# プラグインの設定
+plugins:
+  - serverless-python-requirements
+
+custom:
+  # serverless-python-requirements用の設定
+  pythonRequirements:
+    dockerizePip: true
+
+functions:
+  auth:
+    handler: handler.auth

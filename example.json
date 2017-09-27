@@ -1,0 +1,6 @@
+{
+  "cognito_pool_id": "<cognitoのプールID>",
+  "cognito_client_id": "<cognitoのアプリクライアントID>",
+  "username": "<ユーザープールのユーザー名>",
+  "password": "<ユーザープールのユーザーのパスワード>"
+}
